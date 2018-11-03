@@ -13,11 +13,13 @@ import java.util.HashMap;
 
 public class Language_ListView extends AppCompatActivity {
 
-ListView aList=(ListView)findViewById(R.id.list_view);
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_language__list_view);
+        ListView aList=(ListView) findViewById(R.id.list_view);
         String languagelist[] = new String[]{"English", "Russian", "Dutch", "Chinese", "French", "German", "Hindi", "Italian", "Japanese", "Spanish"};
         Integer[] listviewImage = new Integer[]{
                 R.drawable.uk, R.drawable.russian, R.drawable.dutch, R.drawable.chinese,
