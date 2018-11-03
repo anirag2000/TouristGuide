@@ -44,7 +44,10 @@ public class Tourist_Home_Screen extends AppCompatActivity {
                 if (result.getContents().len == 29):
                   Toast.makeText(this,"--! SCAN SUCCESS !--",Toast.LENGTH_LONG).show();
                   //Go to language Intent
+
                  */
+                Intent intent=new Intent(Tourist_Home_Screen.this,Language_ListView.class);
+                startActivity(intent);
             }
         }
         else{

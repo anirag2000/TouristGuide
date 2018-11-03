@@ -23,7 +23,7 @@ public class Language_ListView extends AppCompatActivity {
         String languagelist[] = new String[]{"English", "Russian", "Dutch", "Chinese", "French", "German", "Hindi", "Italian", "Japanese", "Spanish"};
         Integer[] listviewImage = new Integer[]{
                 R.drawable.uk, R.drawable.russian, R.drawable.dutch, R.drawable.chinese,
-                R.drawable.french, R.drawable.german, R.drawable.india, R.drawable.italian, R.drawable.spanish
+                R.drawable.french, R.drawable.german, R.drawable.india, R.drawable.italian,R.drawable.japanese, R.drawable.spanish
 
 
         };
