@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".Tourist_Home_Screen" />
-        <activity android:name=".Guide_Home_Screen"></activity>
+        <activity android:name=".Guide_Home_Screen" />
+        <activity android:name=".Language_ListView"></activity>
     </application>
 
 </manifest>
